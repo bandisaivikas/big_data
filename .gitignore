@@ -1,0 +1,7 @@
+venv/
+data/raw/
+data/embeddings/
+__pycache__/
+*.pkl
+*.parquet
+.DS_Store
