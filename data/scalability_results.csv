@@ -1,0 +1,12 @@
+experiment,variable,tasks,time_s,throughput,speedup
+data_size,5,15,4.304,3.5,
+data_size,10,30,2.327,12.9,
+data_size,15,45,2.461,18.3,
+data_size,20,60,2.522,23.8,
+data_size,25,75,2.607,28.8,
+data_size,36,108,2.893,37.3,
+partitions,1,108,4.222,,1.0
+partitions,2,108,3.19,,1.32
+partitions,3,108,2.886,,1.46
+partitions,4,108,5.096,,0.83
+partitions,6,108,4.881,,0.86
