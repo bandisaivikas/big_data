@@ -1,6 +1,6 @@
 import os, sys
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-os.environ["SPARK_HOME"] = os.path.expanduser("~/spark-3.5.3-bin-hadoop3")
+os.environ["SPARK_HOME"] = os.path.dirname(__import__("pyspark").__file__)
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col, window, count, to_timestamp
