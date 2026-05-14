@@ -5,3 +5,10 @@ __pycache__/
 *.pkl
 *.parquet
 .DS_Store
+src.zip
+data/checkpoints/
+data/delta/
+data/embeddings/
+data/raw/
+venv/
+__pycache__/
