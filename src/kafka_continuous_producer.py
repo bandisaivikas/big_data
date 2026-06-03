@@ -4,7 +4,7 @@ import time
 from kafka import KafkaProducer
 
 def stream_continuously(parquet_path="data/raw/corpus.parquet",
-                        topic="news-stream-live",
+                        topic="news-stream-spark",
                         delay=0.1):
 
     print("=" * 60)

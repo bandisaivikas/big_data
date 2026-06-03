@@ -38,7 +38,7 @@ def run():
     kafka_df = spark.readStream \
         .format("kafka") \
         .option("kafka.bootstrap.servers", "localhost:9092") \
-        .option("subscribe", "news-stream-live") \
+        .option("subscribe", "news-stream-spark") \
         .option("startingOffsets", "latest") \
         .option("maxOffsetsPerTrigger", 100) \
         .load()

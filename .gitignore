@@ -1,14 +1,48 @@
-venv/
-data/raw/
-data/embeddings/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Large binary / generated data
 *.pkl
 *.parquet
-.DS_Store
-src.zip
-data/checkpoints/
-data/delta/
-data/embeddings/
 data/raw/
-venv/
-__pycache__/
+data/embeddings/
+data/checkpoints/
+data/checkpoints_live/
+data/delta/
+data/streaming_output/
+data/windows/
+
+# Archives
+*.zip
+
+# Presentation binaries (large, not source code)
+*.key
+*.pptx
+*.ppt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
