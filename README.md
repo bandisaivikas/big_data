@@ -9,7 +9,7 @@ SemDriftBD detects when the meaning of text data changes over time in big-data p
 ## Architecture
 
 ```
-News corpus (50K articles)
+News corpus (60K articles)
        │
        ▼
 Kafka producer  ──►  Kafka topic (news-stream-spark)
