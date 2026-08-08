@@ -56,12 +56,6 @@ WKCS = α · W₂(P, Q) + β · KL(P ‖ Q)    (α=0.6, β=0.4)
 
 Embeddings are projected to a shared PCA subspace before computing both distances. This combines the geometric sensitivity of Wasserstein distance with the distributional precision of KL divergence, outperforming the stability.
 
-| Method | Correlation with ground truth |
-|---|---|
-| Cosine distance | 0.71 |
-| Wasserstein only | 0.83 |
-| KL divergence only | 0.79 |
-| **WKCS (ours)** | **1.00** (reference) |
 
 ### BERTopic Causal Attribution
 
